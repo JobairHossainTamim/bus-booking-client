@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Bus Booking Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Building a bus booking application from scratch can be a complex and rewarding project. 
 
-In the project directory, you can run:
+# Description:
 
-### `npm start`
+Developed a full-stack bus booking web application from inception to deployment, focusing on creating a seamless user experience and robust functionality. Key achievements and responsibilities include:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Architecture & Framework: Built the application using Node.js and Express.js, with MongoDB as the database.
+- Database Management: Designed complex MongoDB schemas and models to efficiently store and retrieve bus schedules, user data, and booking details.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- User Interfaces: Created user-friendly interfaces using the Ant Design library, distinguishing between user and admin experiences.
+- Security: Implemented JWT authentication to safeguard user routes and employed password hashing for enhanced security.
+- State Management: Utilized Redux Toolkit for efficient state management, with a specific focus on real-time seat availability and booking updates.
+- Seat Availability: Developed a feature for real-time seat availability checks, preventing overbooking.
+- Payment Integration: Integrated the Stripe payment gateway for secure online transactions.
+- Error Handling: Implemented comprehensive error handling and validation for payment transactions and negative scenarios.
+- Admin Panel: Designed an admin panel to manage buses, schedules, bookings, and user data, including CRUD functionalities.
+- Deployment: Deployed the application , ensuring accessibility to a global audience.
+- Version Control: Utilized Git and GitHub for collaborative development and version control.
+- Testing & Documentation: Wrote unit tests and integration tests to ensure application reliability. Prepared detailed project documentation, including installation instructions and API endpoints.
+- Scalability: Considered future scalability and potential enhancements for the application's growth.
 
-### `npm test`
+This project showcases my ability to design, develop, and deploy a complex full-stack application while emphasizing security, user experience, and scalability.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Successfully sports the latest development of a bus booking web app incorporating advanced features like real-time seat availability check, Stripe payment integration and an intuitive admin panel. 
+Thorough user testing ensured our app's stability, security, and ability to grow worldwide. Our dedication to testing led to a user-friendly application that's ready to embrace a global audience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Technology :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Bootstrap , Antd , Redux , React-to-print
+- 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
